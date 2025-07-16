@@ -45,15 +45,7 @@
         position: relative;
         height: 100%;
         background: #222;
-      } 
-
-      .container iframe {
-          position: absolute;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-      }
+      }  
 
       iframe {
         border: none;
@@ -61,11 +53,14 @@
         height: 100%;
         background: #222;
         box-sizing: border-box;  
+        margin: 0;
+        padding: 0;
       }
 
       @media (max-width: 640px) {
           iframe {
               margin: 1.5rem 0;  
+              height: calc(100% - 1.5rem);
           }
       }
     </style>
