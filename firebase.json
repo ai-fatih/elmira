@@ -5,6 +5,13 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/pdf/cv-elmira.pdf",
+        "type": 301
+      }
     ]
   }
 }
